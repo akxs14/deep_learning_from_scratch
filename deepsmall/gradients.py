@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from operations import *
+
 # A dictionary that will map operations to gradient functions
 _gradient_registry = {}
 
